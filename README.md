@@ -7,14 +7,14 @@ Click the button below to open this repo in a browser-based VS Code with everyth
 Once it loads, open the terminal and run:
 
 ```bash
-export OPENAI_API_KEY="your-key-here"
-inspect eval example_task.py
+export OPENROUTER_API_KEY="your-key-here"
+inspect eval example_task.py --model openrouter/openai/gpt-4o-mini
 ```
 
 ## Mac/Linux local setup
 
 ```bash
 pip install inspect-ai
-export OPENAI_API_KEY="your-key-here"
-inspect eval example_task.py
+export OPENROUTER_API_KEY="your-key-here"
+inspect eval example_task.py --model openrouter/openai/gpt-4o-mini
 ```
