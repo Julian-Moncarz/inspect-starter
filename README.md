@@ -1,7 +1,3 @@
-# Inspect AI Starter
-
-Get up and running with [Inspect AI](https://inspect.ai-safety-institute.org.uk/) in one click.
-
 ## Quickest setup: GitHub Codespaces
 
 Click the button below to open this repo in a browser-based VS Code with everything pre-installed:
@@ -22,5 +18,3 @@ pip install inspect-ai
 export OPENAI_API_KEY="your-key-here"
 inspect eval example_task.py
 ```
-
-That's it.
